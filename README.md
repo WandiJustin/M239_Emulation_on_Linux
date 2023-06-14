@@ -4,21 +4,21 @@
 A short tutorial to emulate different ROM-Files on Linux Systems with the help of Retro-Emulators. 
 
 # Ubuntu 
-To use the following Emulators you need to set up your Ubuntu Distribution on a Virtual Machine or a physical machine.
+To use the following Emulators you need to set up your Ubuntu Distribution on a virtual machine or a physical machine.
 
 1. Move to [Ubuntu Desktop](https://ubuntu.com/download/desktop "Ubuntu Desktop") and download Ubuntu Desktop (preferably  the newest version).
-2. Now install your Ubuntu on your machine ([Virtual Machine](https://www.makeuseof.com/install-ubuntu-on-vmware-workstation/ "Install Ubuntu with VMware Workstation Pro")/[Physical Machine](https://www.dell.com/support/kbdoc/de-ch/000119771/anleitung-zum-erstellen-eines-live-ubuntu-linux-usb-schl%C3%BCssels "Install Ubuntu with Rufus"))
+2. Now install your Ubuntu on your machine ([Virtual Machine](https://www.makeuseof.com/install-ubuntu-on-vmware-workstation/ "Install Ubuntu with VMware Workstation Pro")/[Physical Machine](https://www.dell.com/support/kbdoc/de-ch/000119771/anleitung-zum-erstellen-eines-live-ubuntu-linux-usb-schl%C3%BCssels "Install Ubuntu with Rufus")).
 
 ![Dolphin Ubuntu](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/860ec4b483f4eb74c18dff91f162331a.png "Dolphin")
 # Dolphin Emulator (Wii/GameCube)
 With Doplhin you can emulate Wii and GameCube games on your system in Full HD. 
 [[Source](https://de.dolphin-emu.org/docs/guides/building-dolphin-linux/ "Dolphin-Emu Wiki")]
 ## Installation
-1. To install the stable version input the following commands in the terminal. This will install all necessary packages.
+1. Install all packages and also the stable version
   ```
 User@Ubuntu:~$ sudo apt install --no-install-recommends ca-certificates qt6-base-dev qt6-base-private-dev libqt6svg6-dev git cmake make gcc g++ pkg-config libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libxi-dev libxrandr-dev libudev-dev libevdev-dev libsfml-dev libminiupnpc-dev libmbedtls-dev libcurl4-openssl-dev libhidapi-dev libsystemd-dev libbluetooth-dev libasound2-dev libpulse-dev libpugixml-dev libbz2-dev libzstd-dev liblzo2-dev libpng-dev libusb-1.0-0-dev gettext
 ```
-2. Downloade GIT
+2. Download GIT
   ```
 User@Ubuntu:~$ sudo apt install git
 ```
@@ -62,7 +62,7 @@ There are a lot of websites to download ROMs from, the one we used is [ROMs Game
 # VisualBoyAdvance on Ubuntu (GBA/GBC/GB) 
 ![VBA](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/08/cropped-visual-boy-advance-logo.webp?w=512&ssl=1 "VBA")
 
-With VisualBOyAdvance (VBA) you can play GameBoy, GameBoy Color and Gameboy Advanced ROMs on almost any operating system. [[Source](https://visualboyadvance.org/install-linux/ "VBA Site")]
+With VisualBoyAdvance (VBA) you can play GameBoy, GameBoy Color and Gameboy Advanced ROMs on almost any operating system. [[Source](https://visualboyadvance.org/install-linux/ "VBA Site")]
 ## Installation 
 Follow the instructions to install and start VBA. 
 1. Update your OS
@@ -78,18 +78,18 @@ User@Ubuntu:~$ sudo apt-get upgrade -y
 User@Ubuntu:~$ sudo snap install visualboyadvance-m --beta
 ```
 ## Running VBA
-1. Run VisualBoyAdvance through the terminal
+### Run VisualBoyAdvance through the terminal
   ```
 User@Ubuntu:~$ visualboyadvance-m
 ```
 
-You can also run VBA through the application explorer 
+### You can also run VBA through the application explorer 
 1. Go to "show applications"
 2. Type in
   ```
 VBA-M
 ```
-3 Click on it!
+3. Click on it!
 
 ![VBA Installed ](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/11/show-vba-m-app.png?w=373&ssl=1 "VBA Installed")
 
