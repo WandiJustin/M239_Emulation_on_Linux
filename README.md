@@ -134,3 +134,31 @@ You can get your ROM's as an example from [ROMs Games](https://www.romsgames.net
 1. After you started ZSNES you're presented with a start up screen
 2. To open a NES or SNES ROM you go to *Game > Load* and select your ROM. 
 ![VBA Open ROM ](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/11/visual-boy-advance-installed-on-linux.jpg?w=794&ssl=1 "VBA Open ROM")
+
+# RetroArch on Linux
+With RetroArch enables you too emulate a whole lot of consoles. As an example: Dolphin is already incluced in RetroArch, and many more. [[Source](https://www.retroarch.com/index.php?page=linux-instructions "RetroArch Tutorial")] 
+
+## Installation 
+Follow the instructions to install and start VBA. 
+1. Update your OS
+  ```
+User@Ubuntu:~$ sudo apt-get update
+```
+2. Upgrade installed files
+  ```
+User@Ubuntu:~$ sudo apt-get upgrade -y 
+```
+3. Install RetroArch
+  ```
+User@Ubuntu:~$ sudo add-apt-repository ppa:libretro/stable && sudo apt-get update && sudo apt-get install retroarch
+```
+![RetroArch](https://www.addictivetips.com/app/uploads/2019/03/retroarch1-e1552001701690.jpg "SNES Installation")
+
+## Running RetroArch
+You can run RetroArch through the application explorer 
+1. Go to "show applications"
+2. Type in
+  ```
+RetroArch
+```
+3. Click on it!
