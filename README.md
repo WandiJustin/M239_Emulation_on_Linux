@@ -1,17 +1,17 @@
 # M239_Emulation_on_Linux
-###### Von Justin Wandeler & Joel Sassi
+###### By Justin Wandeler & Joel Sassi
 
 A short tutorial to emulate different ROM-Files on Linux Systems with the help of Retro-Emulators. 
 
 # Ubuntu 
-To use the following Emulators you need to setup your Ubuntu Distrobution on a Virtual Machine or a physical machine.
+To use the following Emulators you need to set up your Ubuntu Distribution on a Virtual Machine or a physical machine.
 
-1. Move to [Ubuntu Desktop](https://ubuntu.com/download/desktop "Ubuntu Desktop") and download Ubuntu Desktop (preferrably the newest version).
+1. Move to [Ubuntu Desktop](https://ubuntu.com/download/desktop "Ubuntu Desktop") and download Ubuntu Desktop (preferably  the newest version).
 2. Now install your Ubuntu on your machine ([Virtual Machine](https://www.makeuseof.com/install-ubuntu-on-vmware-workstation/ "Install Ubuntu with VMware Workstation Pro")/[Physical Machine](https://www.dell.com/support/kbdoc/de-ch/000119771/anleitung-zum-erstellen-eines-live-ubuntu-linux-usb-schl%C3%BCssels "Install Ubuntu with Rufus"))
 
 ![Dolphin Ubuntu](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/860ec4b483f4eb74c18dff91f162331a.png "Dolphin")
-# Dolphine Emulator (Wii/GameCube)
-With Doplhine you can emulate Wii and GameCube games on your system in Full HD. 
+# Dolphin Emulator (Wii/GameCube)
+With Doplhin you can emulate Wii and GameCube games on your system in Full HD. 
 [[Source](https://de.dolphin-emu.org/docs/guides/building-dolphin-linux/ "Dolphin-Emu Wiki")]
 ## Installation
 1. To install the stable version input the following commands in the terminal. This will install all necessary packages.
@@ -22,7 +22,7 @@ User@Ubuntu:~$ sudo apt install --no-install-recommends ca-certificates qt6-base
   ```
 User@Ubuntu:~$ sudo apt install git
 ```
-3. Get the Dolphine Repository
+3. Get the Dolphin Repository
   ```
 User@Ubuntu:~$ git clone https://github.com/dolphin-emu/dolphin.git dolphin-emu
 ```
