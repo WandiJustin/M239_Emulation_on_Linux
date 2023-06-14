@@ -3,12 +3,13 @@
 A short tutorial to emulate different ROM-Files on Linux Systems with the help of Retro-Emulators. 
 
 # Ubuntu 
-To use the following Emulatos you need to setup your Ubuntu Distrobution on a Virtual Machine or a physical machine.
+To use the following Emulators you need to setup your Ubuntu Distrobution on a Virtual Machine or a physical machine.
 
 1. Move to [Ubuntu Desktop](https://ubuntu.com/download/desktop "Ubuntu Desktop") and download Ubuntu Desktop (preferrably the newest version).
 2. Now install your Ubuntu on your machine ([Virtual Machine](https://www.makeuseof.com/install-ubuntu-on-vmware-workstation/ "Install Ubuntu with VMware Workstation Pro")/[Physical Machine](https://www.dell.com/support/kbdoc/de-ch/000119771/anleitung-zum-erstellen-eines-live-ubuntu-linux-usb-schl%C3%BCssels "Install Ubuntu with Rufus"))
 
-# Dolphine Emulator (Wii/GameCube) 
+![Dolphin Ubuntu](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/860ec4b483f4eb74c18dff91f162331a.png "Dolphin")
+# Dolphine Emulator (Wii/GameCube)
 With Doplhine you can emulate Wii and GameCube games on your system in Full HD. 
 [[Source](https://de.dolphin-emu.org/docs/guides/building-dolphin-linux/ "Dolphin-Emu Wiki")]
 ## Installation
@@ -46,11 +47,89 @@ User@Ubuntu:~/dolphin-emu/Build$ cmake ..
 User@Ubuntu:~/dolphin-emu/Build$ dolphin-emu
 ```
 
-## ROM Usage
+### ROM Usage in Doplhin
 
-There are a lot of websites to download ROMs from, one we used is [ROMs Games](https://www.romsgames.net/roms/nintendo-wii/ "ROMs Games"). Please be very careful while downloading ROMs, there are a lot of sketchy sites. 
+There are a lot of websites to download ROMs from, the one we used is [ROMs Games](https://www.romsgames.net/roms/nintendo-wii/ "ROMs Games"). Please be very careful while downloading ROMs, there are a lot of sketchy sites. 
 
 1. Start Dolphin on your machine
 2. In the top right corner you can click on "Open"
 3. Add your downloaded ROMs to this directory
-4. If the ROMs are now not shown in Dolphin restart Dolphin 
+4. If the ROMs are now not shown in Dolphin restart Dolphin
+   
+![Dolphin on Ubuntu](https://i.imgur.com/0rDtUTJ.png "Dolphin EMU on Ubuntu")
+
+# VisualBoyAdvance on Ubuntu (GBA/GBC/GB) 
+![VBA](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/08/cropped-visual-boy-advance-logo.webp?w=512&ssl=1 "VBA")
+
+With VisualBOyAdvance (VBA) you can play GameBoy, GameBoy Color and Gameboy Advanced ROMs on almost any operating system. [[Source](https://visualboyadvance.org/install-linux/ "VBA Site")]
+## Installation 
+Follow the instructions to install and start VBA. 
+1. Update your OS
+  ```
+User@Ubuntu:~$ sudo apt-get update
+```
+2. Upgrade installed files
+  ```
+User@Ubuntu:~$ sudo apt-get upgrade -y 
+```
+3. Install VisualBoyAdvance
+  ```
+User@Ubuntu:~$ sudo snap install visualboyadvance-m --beta
+```
+## Running VBA
+1. Run VisualBoyAdvance through the terminal
+  ```
+User@Ubuntu:~$ visualboyadvance-m
+```
+
+You can also run VBA through the application explorer 
+1. Go to "show applications"
+2. Type in
+  ```
+VBA-M
+```
+3 Click on it!
+
+![VBA Installed ](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/11/show-vba-m-app.png?w=373&ssl=1 "VBA Installed")
+
+### ROM Usage in VBA
+You can get your ROM's as an example from [ROMs Games](https://www.romsgames.net/roms/ "ROMs Games"). Please be very careful while downloading ROMs, there are a lot of sketchy sites.
+1. After you started VBA you're presented with a black screen
+2. To open a GBA ROM go to *File > Open...* or press *CTRL + O*
+3. For GB or GBC ROMs go to *File > Open GB*... or *File > Open GBC...*
+![VBA Open ROM ](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/11/visual-boy-advance-installed-on-linux.jpg?w=794&ssl=1 "VBA Open ROM")
+
+# ZSNES on Linux (NES/SNES) 
+With ZSNES you can emulate NES and SNES ROMs. [[Source](https://www.debugpoint.com/3-nes-emulators-to-play-old-nes-games-in-linux/ "ZSNES Tutorial")] [[Source](https://wiki.ubuntuusers.de/ZSNES/
+ "ZSNES Tutorial")]
+ 
+## Installation 
+Follow the instructions to install and start VBA. 
+1. Update your OS
+  ```
+User@Ubuntu:~$ sudo apt-get update
+```
+2. Upgrade installed files
+  ```
+User@Ubuntu:~$ sudo apt-get upgrade -y 
+```
+3. Install zsnes
+  ```
+User@Ubuntu:~$ sudo apt install zsnes
+```
+![ZSNES Installation](https://www.debugpoint.com/wp-content/uploads/2016/07/ZSNES-Main.png "SNES Installation")
+
+## Running ZSNES
+You can run ZSNES through the application explorer 
+1. Go to "show applications"
+2. Type in
+  ```
+ZSNES
+```
+3. Click on it!
+
+### ROM Usage in ZSNES
+You can get your ROM's as an example from [ROMs Games](https://www.romsgames.net/roms/ "ROMs Games"). Please be very careful while downloading ROMs, there are a lot of sketchy sites.
+1. After you started ZSNES you're presented with a start up screen
+2. To open a NES or SNES ROM you go to *Game > Load* and select your ROM. 
+![VBA Open ROM ](https://i0.wp.com/visualboyadvance.org/wp-content/uploads/2022/11/visual-boy-advance-installed-on-linux.jpg?w=794&ssl=1 "VBA Open ROM")
