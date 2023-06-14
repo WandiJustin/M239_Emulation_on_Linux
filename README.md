@@ -1,4 +1,5 @@
 # M239_Emulation_on_Linux
+###### Von Justin Wandeler & Joel Sassi
 
 A short tutorial to emulate different ROM-Files on Linux Systems with the help of Retro-Emulators. 
 
