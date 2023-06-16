@@ -43,7 +43,16 @@ User@Ubuntu:~/dolphin-emu$ mkdir Build && cd Build
   ```
 User@Ubuntu:~/dolphin-emu/Build$ cmake ..
 ```
-8. Now run Dolphin
+
+8. From here build and install in the standard make way
+
+  ```
+User@Ubuntu:~/dolphin-emu/Build$ make -j$(nproc)
+
+User@Ubuntu:~/dolphin-emu/Build$ sudo make install
+```
+
+9. Now run Dolphin
   ```
 User@Ubuntu:~/dolphin-emu/Build$ dolphin-emu
 ```
